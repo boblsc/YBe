@@ -406,7 +406,7 @@ def plot_rz(data_cs1cs2_cuts,cs1_range, cs2_range):
     ax.vlines([max_radius**2], ymin=ylim[0], ymax=ylim[1], color='black',linestyle='--')
     ax.vlines([radius**2], ymin=ylim[0], ymax=ylim[1], color='black')
     ax.hlines([max_z,min_z], xmin=xlim[0], xmax=xlim[1], color='k', label='FV',linestyle='--')
-    ax.set(xlim=xlim, ylim=ylim, xlabel='r^2 (cm^2)', ylabel='z (cm)')
+    ax.set(xlim=xlim, ylim=ylim, xlabel='r$^2$ (cm$^2$)', ylabel='z (cm)')
     plt.title(f'cS1={cs1_range}PE, cS2={cs2_range}PE')
     plt.show()
     
